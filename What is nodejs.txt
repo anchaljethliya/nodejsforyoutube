@@ -1,0 +1,45 @@
+What is nodejs?
+Node.js is a js runtime built on chrome's v8 js engine.
+Node.js is a js running on server
+
+
+REPL:
+R-READ
+E-EVAL TAKES AND EVALUATE DSA
+P-PRINT 
+L-LOOP
+
+Node.js core module:
+consider modules to be the same as javascript libraries. A set of functions you want to include in your application.
+node.js has a set of built-in modules which you can use without any further installation
+
+
+
+node.js web server
+ti acess web pages of any web application you need a web server
+the web server will handle all the http req for web application. node.js provides capabilities to create your own web server which will handle http req asunc ypu can use iis or apache to run node.js web application but it is recommended to use node.js web server
+
+json: 
+json stands for js obj notation. json is a lightweight
+format for storring and transporting data.
+json is often used when data is sent from a server to a web page.
+
+
+API:
+is the acronym for application programming interface which is a software intermediate that allows two applications to talk to each other each time you usenan app like fb send instant message.
+api is like a servise to req data
+
+
+node.js Streams:
+Streams are objects that let you read data from a source or write data to a destination in continuous fashion. In Node.js, there are four types of streams -
+Streaming means listening to music or watching video in 'real time', instead of downloading a file to your computer and watching it later
+Readable - Stream which is used for read operation.
+Writable - Stream which is used for write operation.
+Duplex - Stream which can be used for both read and write operation.
+Each type of Stream is an EventEmitter instance and throws several events at different instance of times. For example, some of the commonly used events are -
+data - This event is fired when there is data is available to read.
+end - This event is fired when there is no more data to read.
+error - This event is fired when there is any error receiving or writing data.
+finish - This event is fired when all the data has been flushed to underlying system
+Transform - A type of duplex stream where the output is computed based on input.
+stream.pipe() - the method used to take a readable streams and connect it to a writable stream
